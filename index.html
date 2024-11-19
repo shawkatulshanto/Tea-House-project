@@ -24,7 +24,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
                     }
                 }
             }
@@ -88,7 +89,7 @@
                         <img src="images/tea-1.png" alt="Shoes" />
                     </figure>
                     <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Lemon Tea</h2>
+                        <h2 class="text-2xl font-bold">matcha </h2>
                         <p>Creamer could be replaced by fresh milk</p>
 
                     </div>
@@ -99,7 +100,7 @@
                         <img src="images/tea-2.png" alt="Shoes" />
                     </figure>
                     <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Strobery Milk</h2>
+                        <h2 class="text-2xl font-bold">milk tea</h2>
                         <p>Creamer could be replaced by fresh milk</p>
 
                     </div>
@@ -110,7 +111,7 @@
                         <img src="images/tea-3.png" alt="Shoes" />
                     </figure>
                     <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <h2 class="text-2xl font-bold">chocolate coffee</h2>
                         <p>Creamer could be replaced by fresh milk</p>
 
                     </div>
@@ -121,7 +122,7 @@
                         <img src="images/tea-4.png" alt="Shoes" />
                     </figure>
                     <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Black Tea</h2>
+                        <h2 class="text-2xl font-bold">Americans</h2>
                         <p>Creamer could be replaced by fresh milk</p>
 
                     </div>
@@ -156,7 +157,7 @@
             </div>
             </section>
  <!-- Super Client section-->
-<section class="my-24  flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#f00] px-16 py-24">
+<section class="my-24  flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24">
 
    <div class="flex lg:pr-28 items-center">
    
@@ -279,9 +280,66 @@
 
     </main>
 
-    <footer>
+    <footer class="px-48 py-10  bg-base-200 text-base-content p-10">
+<div class="flex justify-between my-24">
+    <img src="images/cup.png" alt="">
+    <p>
+        <span>
+            Ready to Get started
+        </span>
+        <button class="btn btn-primary">Get Started
 
+        </button>
+    </p>
+</div>
+
+        <div  class="footer ">
+            <div>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </div>
+            <div>
+                
+                    <h6 class="footer-title">Company</h6>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                  
+            </div>
+            <div>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+    
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                  </label>
+                  <div class="relative">
+                    <input
+                      type="text"
+                      placeholder="username@site.com"
+                      class=" py-4 bg-transparent border-b-2 border-black outline-none" />
+                    <button class="btn text-white absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                </fieldset>
+            </form>
+        </div>
+       <div class="mt-10 text-center">
+              <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+            </div>
     </footer>
+
+        
+    
 
 </body>
 
